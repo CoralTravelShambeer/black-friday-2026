@@ -26,6 +26,15 @@
 }
 
 .hotel_tabs__buttons {
+  padding-top: 24px;
   display: flex;
   gap: 12px;
+}
+
+.hotel_tabs__header {
+  font-size: 32px;
+}
+
+.hotel_tabs__nav_text {
+  font-size: 16px;
 }
