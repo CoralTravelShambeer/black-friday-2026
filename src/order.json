@@ -1,6 +1,11 @@
 {
   "folder": "black-friday-2026",
   "blocks": [
-    "welcome"
+    "global",
+    "kv_bf2026",
+    "text1_bf2026",
+    "cards_bf2026",
+    "text2_bf2026",
+    "contact_bf2026"
   ]
 }

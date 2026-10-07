@@ -1,0 +1,89 @@
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  @media (max-width: 767px) {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
+  border-radius: 20px;
+  padding: 24px;
+  color: white;
+  min-height: 250px;
+
+  @for $i from 1 through 6 {
+    &:nth-child(#{$i}) {
+    background:
+            url("/card_images/icon_#{$i}.png"),
+            linear-gradient(138deg, rgba(19, 24, 62, 0.90) 33.67%, #202E56 46.06%, #283A62 52.85%, #3A5782 64.36%, #4F79A7 73.81%, #4F79A7 82.96%);
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      background-size: cover;
+    }
+  }
+}
+
+.card__header {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.card_temp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_temp-sun, .card_temp-water {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 15px;
+  gap: 8px;
+  background-color: rgb(255, 255, 255, 0.15);
+  padding: 5px 8px;
+}
+
+.card__text {
+  font-size: 16px;
+}
+
+.card__title {
+  font-size: 26px;
+}
+
+.card_temp_text {
+  font-size: 10px;
+}
+
+.card__button {
+  margin-top: auto;
+}
+
+.temp_wind_img, .temp_water_img {
+  width: 16px;
+  height: 16px;
+}
+
+.embla__viewport {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.embla__dots {
+  margin: auto;
+  display: flex;
+  gap: 8px;
+}

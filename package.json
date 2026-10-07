@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "sass": "^1.102.0"
+  },
+  "dependencies": {
+    "embla-carousel": "^8.6.0"
   }
 }
