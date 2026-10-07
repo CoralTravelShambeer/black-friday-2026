@@ -33,6 +33,9 @@
 
 .hotel_tabs__header {
   font-size: 32px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .hotel_tabs__nav_text {
