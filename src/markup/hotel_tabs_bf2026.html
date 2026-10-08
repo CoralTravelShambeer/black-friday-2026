@@ -9,12 +9,22 @@
     <div class="hotel_tabs__hotel_block">
         <div class="hotel_tabs__buttons">
             <coral-button trait="vivid" shape="pill">
-                <button>Комбо: отдых + Черная Пятница</button>
+                <button type="button" aria-pressed="true">Комбо: отдых + Черная Пятница</button>
             </coral-button>
 
             <coral-button trait="ghost" shape="pill">
-                <button>Отдых в ноябре</button>
+                <button type="button" aria-pressed="false">Отдых в ноябре</button>
             </coral-button>
+        </div>
+
+        <div class="hotel_tabs__content">
+            <div class="hotel_tabs__content--1">
+                Блок 1
+            </div>
+
+            <div class="hotel_tabs__content--2" hidden>
+                Блок 2
+            </div>
         </div>
     </div>
 </section>

@@ -42,3 +42,12 @@
 .hotel_tabs__nav_text {
   font-size: 16px;
 }
+
+.hotel_tabs__hotel_block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @media (max-width: 768px) {
+    gap: 8px;
+  }
+}
