@@ -88,6 +88,10 @@
 
 .embla__dots {
   margin: auto;
-  display: flex;
+  display: none;
   gap: 8px;
+
+  @media (max-width: 767px) {
+    display: flex;
+  }
 }

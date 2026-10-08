@@ -18,6 +18,7 @@ export default function init() {
         } else {
             emblaApi?.destroy()
             emblaApi = undefined
+            dotsNode.replaceChildren()
         }
     }
 
